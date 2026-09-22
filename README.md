@@ -57,11 +57,11 @@ Three password-protected PDFs were provided for this lab:
 
 | File | Size |
 |---|---|
-| `My Locked PDF1.pdf` | 60.2 KB |
-| `My-Locked-PDF2.pdf` | 266.9 KB |
-| `My-Locked-PDF3.pdf` | 313.5 KB |
+| `My Locked PDF1.pdf` |
+| `My-Locked-PDF2.pdf` | 
+| `My-Locked-PDF3.pdf` | 
 
-They are stored in the `week3/locked-pdfs/` folder in this repository.
+They are stored in the `week3/` folder of this repository.
 
 The extracted `$pdf$` hash used by John the Ripper is stored as `week3/hash1.txt`.
 
@@ -101,9 +101,19 @@ Used the cracked password `password1` to unlock the PDF.
 
 ![PDF unlock — password1](week3/nw-tools-pdf-unlock-password1.png)
 
-#### Result — Flag Captured
+#### Results — Flags Captured
 
-![Flag captured — NW Tools](week3/nw-tools-flag.png)
+**Flag 1 (PDF1 — `good-luck`):**
+
+![Flag 1 — NW Tools](week3/nw-tools-flag.png)
+
+**Flag 2 (PDF3 — `1qaz2wsx`):**
+
+![Flag 2 — NW Tools](week3/nw-tools-flag-2.png)
+
+**Flag 3 (final confirmation):**
+
+![Flag 3 — NW Tools](week3/nw-tools-flag-3.png)
 
 ---
 
@@ -168,10 +178,6 @@ Password successfully cracked: **`good-luck`**
 Used the cracked password `good-luck` to open the protected PDF.
 
 ![PDF unlock — good-luck](week3/jtr-pdf-unlock-goodluck.png)
-
-#### Result — Flag Captured
-
-![Flag captured — JTR](week3/jtr-flag.png)
 
 ---
 
